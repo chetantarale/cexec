@@ -157,6 +157,7 @@ check_uuid_binary(){
 }
 
 run_build() {
+  pip install datetime
   /home/shippable/cexec/dist/main/main
 }
 
